@@ -1,0 +1,37 @@
+project_id = "szmnfthiblejkjfdbeba"
+
+[auth]
+site_url = "https://szmnfthiblejkjfdbeba.lovableproject.com"
+
+[functions.generate-event-description]
+verify_jwt = true
+
+[functions.notify-admin-new-event]
+verify_jwt = true
+
+[functions.send-contact-notification]
+verify_jwt = false
+
+[functions.send-event-approval-notification]
+verify_jwt = true
+
+[functions.handle-event-approval]
+verify_jwt = false
+
+[functions.delete-user-account]
+verify_jwt = true
+
+[functions.contact-organizer]
+verify_jwt = false
+
+[functions.notify-subscribers]
+verify_jwt = false
+
+[functions.fetch-tickster-events]
+verify_jwt = false
+
+[functions.verify-captcha]
+verify_jwt = false
+
+[functions.unsubscribe]
+verify_jwt = false
